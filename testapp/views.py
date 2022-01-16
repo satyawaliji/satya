@@ -11,3 +11,4 @@ def image(request):
         f=Imageform()
     i=Image.objects.all()
     return render(request,"testapp/image.html",{"form":f,"i":i})
+    #ok good to learn git
